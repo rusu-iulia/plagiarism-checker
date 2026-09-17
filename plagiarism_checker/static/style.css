@@ -1,0 +1,22 @@
+.score-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    color: #fff;
+}
+
+.score-number { font-size: 1.5rem; font-weight: 700; }
+.score-label { font-size: 0.75rem; opacity: 0.9; }
+
+.risk-low { background-color: #198754; }
+.risk-medium { background-color: #d99a1b; }
+.risk-high { background-color: #dc3545; }
+
+.badge.risk-low { background-color: #198754; }
+.badge.risk-medium { background-color: #d99a1b; }
+.badge.risk-high { background-color: #dc3545; }
