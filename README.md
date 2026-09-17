@@ -33,5 +33,5 @@ Procentajul general de similaritate este calculat ca: `(fraze potrivite / total 
 
 ## Limitări cunoscute
 
-- **Cache în memorie:** rapoartele generate sunt stocate în memoria procesului și se pierd la repornire. Pentru producție, înlocuiți cu o bază de date sau Redis.
+- **Cache în memorie:** rapoartele generate sunt stocate în memoria procesului și se pierd la repornire.
 - **Robustețea scraper-ului:** site-urile cu JavaScript intens sau cu paywall nu vor returna text utilizabil dintr-un simplu request HTTP. 
